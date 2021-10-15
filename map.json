@@ -1,0 +1,57 @@
+[
+  {
+    "title":"Largest US Dog Park",
+    "lat":"38.9889166",
+    "lng":"-94.7987991",
+    "discription":"<p>As featured in the 2021 edition of our Ruff Guide to the United States, Shawnee Mission Park is home to one of the largest off-leash areas in the country. This canine wonderland stretches across 44 acres of grasslands, wooded areas, and open fields that provide the perfect backdrop for a game of fetch. The highlight is the 120-acre lake, which features a dog beach and swimming hole. After a doggy paddle, explore miles of paved and unpaved trails that wind around the lake and through the woods.</p>"
+  },
+  {
+    "title":"Zion National Park",
+    "lat":"37.3220096",
+    "lng":"-113.18332",
+    "discription":"<p>Follow the paths where ancient native people and pioneers walked. Gaze up at massive sandstone cliffs of cream, pink, and red that soar into a brilliant blue sky. Experience wilderness in a narrow slot canyon. Zion’s unique array of plants and animals will enchant you as you absorb the rich history of the past and enjoy the excitement of present day adventures.</p>"
+  },
+    {
+    "title":"World's Largest Ball of Twine",
+    "lat":"39.5092169",
+    "lng":"-98.433689",
+    "discription":"<p>Frank Stoeber started the World's Largest Ball of Twine in 1953. In just 4 years the giant ball of twine weighed 5,000 pounds and stood 8 feet high. Stoeber gave the ball of twine to Cawker City, Kansas in 1961. Many of the businesses on Cawker City's short main street have paintings containing the giant ball of twine in their windows. A twine stripe painted on the sidewalks leads from the World's Largest Ball of Twine to the balls physical location.Each August a twine-a-thon is held and additional twine is added by the residents of the community and visitors - this is your chance to be part of one of the World's Largest Things.</p>"
+  },
+    {
+    "title":"The Great Pyramid of Giza",
+    "lat":"29.9792345",
+    "lng":"31.1320132",
+    "discrpition":"<p>The Great Pyramid of Giza (also known as the Pyramid of Khufu or the Pyramid of Cheops) is the oldest and largest of the pyramids in the Giza pyramid complex bordering present-day Giza in Greater Cairo, Egypt. It is the oldest of the Seven Wonders of the Ancient World, and the only one to remain largely intact.</p>"
+  },
+   
+    {
+    "title":"Tokyo Disneyland",
+    "lat":"35.6328964",
+    "lng":"139.8803943",
+    "discription":"<p>Tokyo offshoot of the iconic theme park known for its rides, live shows & costumed characters.</p>"
+  },
+   {
+    "title":"Central Park",
+    "lat":"40.7812199",
+    "lng":"-73.9665138",
+    "discription":"<p>Sprawling park with pedestrian paths & ballfields, plus a zoo, carousel, boat rentals & a reservoir.</p>"
+  },
+   {
+    "title":"Lake Clark National Park and Preserve",
+    "lat":"60.6022835",
+    "lng":"-156.5474083",
+    "discription":"<p>Over 4 million acres of tundra, mountains & lakes, with trails, fishing holes & serene campgrounds.</p>"
+  },
+   {
+    "title":"Sydney Opera House",
+    "lat":"-33.8567844",
+    "lng":"151.213108",
+    "discription":"<p>Fusing ancient and modernist influences, and built on a site sacred to the local Gadigal people for thousands of years, the sculptural elegance of the Sydney Opera House has made it one of the most recognisable buildings of the twentieth century, synonymous with inspiration and imagination.</p>"
+  },
+   {
+    "title":"Alcatraz Island",
+    "lat":"37.8267028",
+    "lng":"-122.4251775",
+    "discription":"<p>Alcatraz reveals stories of American incarceration, justice, and our common humanity. This small island was once a fort, a military prison, and a maximum security federal penitentiary. In 1969, the Indians of All Tribes occupied Alcatraz for 19 months in the name of freedom and Native American civil rights.</p>"
+  },
+]
