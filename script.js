@@ -2,6 +2,9 @@
   
   //console.log('yo');
 
+    // declare the variables outside a function so they are global
+        var map1, markers;
+
   function initMap() {
 //write jquery to load external JSON data
 
@@ -403,6 +406,10 @@
                   }
 );
 //console.log('blah');
+
+
+// make an empty array to fill up with markers
+  markers = [];
 //add in js for loop to not exeed marker plots
 for( var i=0; i<jsonData.length; i++){
 
@@ -414,17 +421,34 @@ for( var i=0; i<jsonData.length; i++){
     lng:jsonData[i].lng,
   };
 //console.log(geocoords1);
-  let mymarker= new google.maps.Marker(
+  markers[i] = new google.maps.Marker(
     {
       //#1 the position of the marker geocoord
       position:geocoords1,
       //#2 which google map js var to place marker inside of 
       map:map1,
       //#3 title to show when user hovers at marker
-      title: jsonData[i].title
+      title: jsonData[i].title,
+
+      custom_property: jsonData[i].description
       
               }
             );
+            
+  // step 4. define a click event on our marker to make + open iw
+       markers[i].addListener(
+          'click',
+        function() {
+ // make info window with content from this marker's custom property
+      var info1 = new google.maps.InfoWindow(
+       { content: this.custom_property }
+          );
+ // tell the info window to open inside of our map and center on this marker's geocoord
+                    info1.open(map1, this);
+
+
+                            }
+                        );
           }
 
     }
