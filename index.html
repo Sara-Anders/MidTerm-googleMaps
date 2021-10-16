@@ -16,11 +16,33 @@
    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     <style>
-      //give map some width height to be viewed
-      #mapping{
+      
+      #mapping {
         width: 100%;
         height: 650px;
       }
+
+        #controls {
+              width:100vw;
+              height:10vh;
+              background:blue;
+            }
+            body {
+              margin:0;
+            }
+            .brand {
+              color:white;
+              font-family:Impact,sans-serif;
+              font-size:18px;
+              display:inline-block;
+              padding:10px;
+            }
+            #controls a {
+              color:white;
+              text-decoration:none;
+              display:inline-block;
+              padding:10px;
+            }
     </style>
   </head>
   <body>
@@ -28,80 +50,19 @@
     <!--where the map will be drawn in -->
     <div id="mapping"></div>
 
-<script>
+    <div id="controls">
+          <span class="brand">MyApp</span>
+          <a href="#" id="menu1">Do This</a>
+          <a href="#" id="menu2">Do That</a>
+    </div>
   
-  
-  
-  
-  console.log('yo');
-
-  function initMap() {
-//write jquery to load external JSON data
-console.log('hi');
-
- $.getJSON( "map.json",
-
- function(jsonData){
-   
- // the code in this function is run by jQuery after JSON loads
- // now perform the steps in javascript to create the map                  
- // step 1. define the geocoord (lat,long) for the center
-
-      let geocoords = {
-        lat:38.46015 ,
-        lng: -122.7357611
-      };
-//step #2 create google Map Object 
-
-            let map1 = new google.maps.Map(
-// tell gmaps to put map inside my id 
-
-                document.getElementById('mapping'),
-                  {
-//give center in lat lng 
-
-                    center:geocoords,
-//set mzoom
-
-                      zoom: 3
-
-                  }
-);
-console.log('blah');
-//add in js for loop to not exeed marker plots
-for( var i=0; i<jsonData.length; i++){
-
-  //inside curlies, make a block of code associated with for loop
-  //step #3 creat marker that will be placed on map
-  
-  let geocoords1 ={
-    lat:jsonData[i].lat,
-    lng:jsonData[i].lng ,
-  };
-
-  google.maps.Marker(
-    {
-      //#1 the position of the marker geocoord
-      position:geocoords1,
-      //#2 which google map js var to place marker inside of 
-      map:map1,
-      //#3 title to show when user hovers at marker
-      title: jsonData[i].title
-              }
-            );
-          }
-
-    }
- );
-}; 
-
-</script>
+   <script src="script.js"></script>
+    
 
 <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3zL4VqA3SuokO4jzuo9FnXekbJKiPAEk&callback=initMap">
         </script>
 
-    <script src="script.js"></script>
-    
+   
   </body>
 </html>
