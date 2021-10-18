@@ -1,9 +1,9 @@
 [
   {
-    "title":"Largest US Dog Park",
-    "lat":38.9889166,
-    "lng":-94.7987991,
-    "description":"<p>As featured in the 2021 edition of our Ruff Guide to the United States, Shawnee Mission Park is home to one of the largest off-leash areas in the country. This canine wonderland stretches across 44 acres of grasslands, wooded areas, and open fields that provide the perfect backdrop for a game of fetch. The highlight is the 120-acre lake, which features a dog beach and swimming hole. After a doggy paddle, explore miles of paved and unpaved trails that wind around the lake and through the woods.</p>"
+    "title":"The Great Trail Head",
+    "lat":49.3636173,
+    "lng":-123.2793672,
+    "description":"<p>Formerly known as the Trans Canada, the Great Trail is the ultimate in long-distance hiking trails. Like most long-distance hiking trails, it’s actually a network of lots of other, multi-use trails - greenways, waterways and roadways that combine to stretch from the Atlantic to the Pacific all the way up to the Arctic Oceans.Trail Length: 16,777 miles (27,000 km)</p>"
   },
   {
     "title":"Zion National Park",
@@ -37,10 +37,10 @@
     "description":"<p>Big Ben is probably the world's most famous clock. That iconic silhouette is instantly recognisable and is one of the most Instagrammed landmarks on the planet.  Six monarchs and 41 prime ministers have come and gone since the bells first struck their now familiar music across Westminster.  </p>"
   },
    {
-    "title":"Lake Clark National Park and Preserve",
-    "lat":60.6022835,
-    "lng":-156.5474083,
-    "description":"<p>Over 4 million acres of tundra, mountains & lakes, with trails, fishing holes & serene campgrounds.</p>"
+    "title":"Machu Picchu ",
+    "lat":-13.1631412,
+    "lng":-72.5471516,
+    "description":"<p>Machu Picchu is one of the New Seven Wonders of the World. Amazingly, no wheels were used to transport heavy rocks for the construction of the city.Structures at Machu Picchu were built with a technique called &ldquo ashlar.” Stones are cut to fit together without mortar. Remarkably, not even a piece of paper can fit in between two stones.The citadel has two parts: Hanan and Urin according with the Inca tradition.In the Quechua native language, “Machu Picchu” means “Old Peak” or “Old Mountain. Many of the stones that were used to build the city weighed more than 50 tons. How did these stones get up the mountain? Some were chiseled from the granite bedrock of the mountain ridge. For others, hundreds of men pushed the heavy rocks up the steep mountain side.On the Inca Trail, many porters sleep with a shiny metal object or mirror beneath them. They believe it sends away spirits coming up through the earth and whisks them away. Ask any guide or porter, and most will tell you that sometimes they have experienced the feeling of being pulled out of their tents by spirits of the past.</p>"
   },
    {
     "title":"Sydney Opera House",
