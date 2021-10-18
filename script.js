@@ -422,8 +422,8 @@ function initMap() {
         }
       );
 
-      infoWindow = new google.maps.InfoWindow();
-
+     
+      const image ="https://maps.google.com/mapfiles/kml/pushpin/";
       const locationButton = document.createElement("button");
 
       locationButton.textContent = "Pan to Current Location";
@@ -439,18 +439,30 @@ function initMap() {
                 lng: position.coords.longitude,
               };
 
-              infoWindow.setPosition(pos);
-              infoWindow.setContent("Location found.");
-              infoWindow.open(map1);
-              map1.setCenter(pos);
+               let marker2 = new google.maps.Marker(
+         {
+                    // 1. the position of the marker geocoord
+                    position: pos,
+                    // 2. which google map js var to place marker inside
+                    map: map1,
+                    // 3. title to show when user points at marker
+                    title: 'Location found',
+                    icon: image + 'blue-pushpin.png'
+                }
+      );
+
+             marker2.setPosition(pos);
+            // marker2.setContent("Location found.");
+            // marker2.open(map1);
+            map1.setCenter(pos);
             },
             () => {
-              handleLocationError(true, infoWindow, map1.getCenter());
+              handleLocationError(true, marker2, map1.getCenter());
             }
           );
         } else {
           // Browser doesn't support Geolocation
-          handleLocationError(false, infoWindow, map1.getCenter());
+          handleLocationError(false, marker2, map1.getCenter());
         }
       });
 
